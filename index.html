@@ -9,18 +9,38 @@
                 display: grid;
                 place-items: center;
             }
+
+            .column {
+                float: left;
+                width: 33,33%;
+                padding: 5px;
+            }
+
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
         </style>
     </head>  
     <body>
+       <header>
         <h1><b>Welcome To the Joe Budden Podcast fan page.</b></h1>
-            <p1><b>This is a fan page I made of one of my favorite Podcast. I'll put the history of the podcast here along with some video and images hear as well.</b></p1>
-                <br></br>
+        <p1><b>This is a fan page I made of one of my favorite Podcast. I'll put the history of the podcast here along with some video and images hear as well.</b></p1>
+        <br></br>
             <p2><b>The Joe Budden Podcast</b> (formerly <b><ins>I'll Name This Podcast Later).</b></ins> Is a talk and music podcast released twice a week and is currently hosted by Joe Budden, Parks Vallely, Lamar "Ice" Burney, Antwan "Ish" Marby, Melyssa Ford, and Trevor "Queenzflip" Robinson. The show covers numerous topics ranging from music to sports, but primarily focuses on hip-hop/R&B and the events pertaining to it from the previous week</p2>
             <h2>History</h2>
             <p2>The show began in early 2015 as I'll Name This Podcast Later, originally hosted by former rapper Joe Budden, Rory Farrell and Marisa Mendez. The content of the podcast was described as "life, music, sex, and more". The first episode was released audio only on February 18, 2015, at a runtime of 1 hour. For the first year of its existence, the show followed this format, releasing episodes at an average run time of 60–75 mins and audio only.</p2>
-                <br></br>
-                <img src="images/artworks-000162505810-fezgy5-t500x500.jpg" height="500px" width="500px" alt="OG Podcast">
-                <br clear="left" />
+        <br></br>
+            <div class="row">
+                <div class="column">
+                    <img src="images/artworks-000162505810-fezgy5-t500x500.jpg" height="500px" width="500px">
+                </div>
+                <div class="column">
+                    <img src="images/CSaLxhAVAAA2qSy.png" height="500px" width="500px">
+                </div>
+            </div>
+       </header>
                 <br></br>
             <p2>After episode 76 in July 2016, Mendez left the show, siding with Drake during his real life feud with Budden, and was subsequently replaced with Jamil "Mal" Clay for <a href="https://www.youtube.com/watch?v=wz7husEVev4" target="_blank">episode 77</a></p2>
                 <br></br>
@@ -34,6 +54,7 @@
                 <br></br>
                 <div class="iframe-container"> 
                 <iframe width="716" height="403" src="https://www.youtube.com/embed/PHn_KTc-hk8" title="Leaving Spotify | The Joe Budden Podcast" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fspotifyusa%2Fvideos%2F1056329797861025%2F&show_text=false&width=380&t=0" width="380" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 </div>
                 <br></br>
             <p2>In October 2020, Budden revealed that the podcast would be part of his new online media network, The Joe Budden Network. In addition, he announced that the show had signed a new deal to be sponsored by Cash App. The first podcast launched on The Joe Budden Network was the See The Thing Is... podcast hosted by Bridget Kelly, Olivia Dope and Mandii B in October 2020. Since November 2020, the network and the podcast itself are being distributed by multiple platforms, primarily YouTube, SoundCloud, iTunes and Google Podcasts. In January 2021, Karen Civil and Ming Lee joined the network, launching the Girl I Guess podcast.</p2>
